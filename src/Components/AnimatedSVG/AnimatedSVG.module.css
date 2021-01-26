@@ -1,0 +1,21 @@
+.svgSheild {
+    transform: translate(309px, 143px);
+    animation: move-shield;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes move-shield {
+    0% {
+        transform: translate(309px, 150px);
+    }
+
+    50% {
+        transform: translate(309px, 100px);
+    }
+
+    100% {
+        transform: translate(309px, 150px);
+    }
+}

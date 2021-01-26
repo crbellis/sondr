@@ -1,0 +1,65 @@
+.Header {
+    position: absolute;
+    background-color: #f7f7f7;
+    height: 62px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.Logo {
+    position: relative;
+    margin: 12px 5rem 12px 10rem;
+    font-size: 34px;
+    font-family: "Work Sans", sans-serif;
+    letter-spacing: 1rem;
+    font-weight: 300;
+    color: #3362cc;
+}
+
+.NavGroup {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: 5rem;
+    max-width: 500px;
+    height: 62px;
+}
+
+.NavLink {
+    text-decoration: none;
+    border: none;
+    align-items: center;
+    margin: 2rem;
+    color: #3362cc;
+    font-family: "Noto Sans SC", sans-serif;
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+.CreateAccount {
+    text-decoration: none;
+    border: none;
+    align-items: center;
+    margin: 2rem;
+    /* background: linear-gradient(0.3turn, #3362cc, #688fec);
+    color: white; */
+    color: #3362cc;
+    font-family: "Noto Sans SC", sans-serif;
+    font-size: 20px;
+    white-space: nowrap;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+@media (max-width: 900px) {
+    .NavLink {
+        margin: 1rem;
+    }
+
+    .Logo {
+        margin: 12px 5rem 12px 5rem;
+    }
+}

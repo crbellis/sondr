@@ -1,0 +1,119 @@
+img {
+    height: auto;
+    width: auto;
+}
+
+.Wrapper {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    max-width: 100vw;
+}
+.Home {
+    width: 100%;
+    height: 90%;
+    margin-top: 62px;
+}
+
+.Section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.Info {
+    margin: 5rem;
+}
+
+.Logo {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: 122px;
+    letter-spacing: 1rem;
+    color: #3362cc;
+    border-bottom: #3362cc solid 5px;
+    border-spacing: 5px;
+    text-align: center;
+}
+
+.SubHeader {
+    margin-top: 5px;
+    color: #3362cc;
+    font-family: "Noto Sans SC", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    white-space: nowrap;
+}
+
+.TagLine {
+    max-width: 700px;
+    color: #3362cc;
+    font-family: "Noto Sans SC", sans-serif;
+    font-weight: 100;
+    font-size: 35px;
+    margin: 5px;
+    margin-bottom: 50px;
+}
+
+.Body {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    height: 90%;
+    margin: 20px 0px;
+    overflow: hidden;
+}
+
+.Strengthen {
+    display: inline;
+    font-weight: 400;
+}
+
+.Cards {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Card {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin: 25px;
+}
+
+.SignUpBlob {
+    position: absolute;
+    transform: translate(40%, -5%);
+    margin: 25px;
+    z-index: -1;
+}
+
+.SignUp {
+    position: relative;
+    top: -75px;
+}
+
+@media (max-width: 900px) {
+    .Logo {
+        font-size: 60px;
+    }
+
+    .SubHeader {
+        font-size: 20px;
+    }
+
+    .TagLine {
+        font-size: 17.5px;
+    }
+}
