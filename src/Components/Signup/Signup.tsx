@@ -20,12 +20,19 @@ const Signup = () => {
 							</div>
 							<div className={classes.CardWrapper}>
 								<div className={classes.Card}>
-									<div className={classes.Form}>
+									<div>
 										<div className={classes.Label}>
-											Email:
+											Email
+											<div className={classes.Required}>
+												*
+											</div>
 										</div>
-										<input placeholder="example@email.com" />
-										<button type="submit">Submit</button>
+										<div className={classes.Form}>
+											<input placeholder="example@email.com" />
+											<button type="submit">
+												Submit
+											</button>
+										</div>
 									</div>
 								</div>
 							</div>
