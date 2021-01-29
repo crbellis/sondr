@@ -19,6 +19,11 @@
 	color: #3362cc;
 }
 
+.LogoNav {
+	text-decoration: none;
+	color: #3362cc;
+}
+
 .NavGroup {
 	display: flex;
 	flex-direction: row;
